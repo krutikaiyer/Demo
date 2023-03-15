@@ -1,0 +1,17 @@
+MySQL
+Db Records :
+ create database mydb;
+ use mydb;
+ 
+POST:
+http://localhost:9999/product/addProduct
+{
+        "productId":1,
+        "productName": "hairoil",
+		"productCost":200,
+		"productInfo":"cosmetics"
+   
+    }
+
+GET: View Product details by product Id:
+http://localhost:9999/product/viewProduct/id/2
