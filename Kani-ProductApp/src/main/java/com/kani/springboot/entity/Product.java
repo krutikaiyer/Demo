@@ -10,7 +10,7 @@ public class Product {
 	private int productId;
 	private String productName;
 	private int productCost;
-	private String productInfo;
+	private String productInfo;//comments
 	
 	public Product() {
 		super();
